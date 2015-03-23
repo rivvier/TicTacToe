@@ -1,17 +1,37 @@
+<!DOCTYPE html>
 <html>
-<h1> Let's play Tic Tac Toe! </h1>
-<body>
-	<h2> Controls </h2>
-	<ul>
-		<li> New game </li>
-		<li> Scoreboard </li>
-	</ul>
-	<h2> Players </h2>
-	<p>
-		Player 1: <font color="blue">X</font> <br>
-		Player 2: <font color="red">O</font> 
-	</p>
+	<!--h1> Let's play Tic Tac Toe! </h1-->
+	<head>
+		<title> Let's Play Tic Tac Toe! </title>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	</head>
+	<body>
+		<div>
+			<h1> Let's play Tic Tac Toe! </h1>
+		</div>
+		
+		<div class="controlsDiv">
+			<h2 id="hControls"> Controls </h2>
+			<ul>
+				<li> New Game </li>
+				<li> Scoreboard </li>
+			</ul>
+		</div>
+		
+		<div class="playersDiv">
+			<h2 id="hPlayers"> Players </h2>
+			<div id="dPlayers">
+				Player 1: <font color="blue">X</font> 
+				<br>
+				Player 2: <font color="red">O</font> 
+			</div>
+		</div>
 
-	<img src="board.png" size="width: 400px height: 400px"></img> 
-</body>
+		<div>
+			<center>
+				<img src="board.png" size="width: 400px; height: 400px;"/> 
+			</center>
+		</div>
+	
+	</body>
 </html>

@@ -1,0 +1,35 @@
+body {
+	background-color: #04B486;
+}
+
+h1 {
+
+	font-style: italic;
+	text-align: center;
+}
+
+div.controlsDiv {
+	border-style: solid;
+    border-color: blue;
+	background-color: white;
+}
+
+div.playersDiv {
+	border-style: solid;
+    border-color: black;
+	background-color: white;
+}
+
+#hControls {
+	text-align: left;
+
+}
+
+#hPlayers {
+	text-align: center;
+}
+
+#dPlayers {
+	text-align: center;
+}
+
